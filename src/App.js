@@ -6,6 +6,8 @@ import About from './About';
 import Photo from './Photo';
 import Order from './Order';
 import Menu from './Menu';
+import ContactUs from './ContactUs';
+
 import { Button } from 'react-bootstrap';
 import { HashLink as LinkH } from 'react-router-hash-link';
 
@@ -29,7 +31,7 @@ class App extends Component {
 
             <Link className="nav-link " to="/menu">MENU</Link>
 
-            <Link className="nav-link " to="/order">ORDER TAKEOUT</Link>
+            <Link className="nav-link " to="/contactus">CONTACT US</Link>
 
         
 
@@ -43,7 +45,8 @@ class App extends Component {
       <Route path="/About" component={About} />
       <Route path="/photo" component={Photo} />
       <Route path="/menu" component={Menu} />
-      <Route path="/order" component={Order} />
+      <Route path="/contactus" component={ContactUs} />
+
       <footer className="mastfoot mt-auto">
         <div className="inner">
           <p>Design by <a href="https://twitter.com/">Einsteinder</a>.</p>

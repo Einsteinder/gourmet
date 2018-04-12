@@ -16,21 +16,20 @@ class App extends Component {
         <Router>
 
       <div>
-      <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
+      <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header className="masthead mb-auto">
+        <div className="inner">
 
-          <nav class="nav nav-masthead justify-content-center">
+          <nav className="nav nav-masthead justify-content-center">
           
-          <Link class="nav-link" to="/">HOME</Link>
-          <LinkH to="/photo#with-hash-fragment">Link to Hashphoto</LinkH>
+          <Link className="nav-link" to="/">HOME</Link>
 
-            <Link class="nav-link " to="/about">ABOUT</Link>
-            <Link class="nav-link " to="/photo">PHOTOS</Link>
+            <Link className="nav-link " to="/about">ABOUT</Link>
+            <LinkH className="nav-link " to="/photo#with-hash-fragment">PHOTOS</LinkH>
 
-            <Link class="nav-link " to="/menu">MENU</Link>
+            <Link className="nav-link " to="/menu">MENU</Link>
 
-            <Link class="nav-link " to="/order">ORDER TAKEOUT</Link>
+            <Link className="nav-link " to="/order">ORDER TAKEOUT</Link>
 
         
 
@@ -45,8 +44,8 @@ class App extends Component {
       <Route path="/photo" component={Photo} />
       <Route path="/menu" component={Menu} />
       <Route path="/order" component={Order} />
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
+      <footer className="mastfoot mt-auto">
+        <div className="inner">
           <p>Design by <a href="https://twitter.com/">Einsteinder</a>.</p>
         </div>
       </footer>

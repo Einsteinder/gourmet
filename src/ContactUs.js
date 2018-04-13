@@ -35,13 +35,13 @@ class ContactUs extends Component {
 
           formDataNameOrder:["name","message","email","color"],
           formGoogleSheetName:"responses",
-          formGoogleSendEmail:"2016831763@txt.att.net"
+          formGoogleSendEmail:""
         };
         const url = `https://script.google.com/macros/s/AKfycbwsn-ciO2G-dxTrpbbD72zMMMNH0DQ4x_5DMjJltgszWPj0KE8/exec`
         const options = {
           method: 'POST',
           headers: { 'content-type': 'application/x-www-form-urlencoded' },
-          data: `${qs.stringify({name:user.name})}&message=${user.message}&${qs.stringify({email:user.email})}&color=${user.color}&formDataNameOrder=%5B%22name%22%2C%22message%22%2C%22email%22%2C%22color%22%5D&formGoogleSheetName=responses&formGoogleSendEmail=example%40email.net`,
+          data: `${qs.stringify({name:user.name})}&message=${user.message}&${qs.stringify({email:user.email})}&formDataNameOrder=%5B%22name%22%2C%22message%22%2C%22email%22%5D&formGoogleSheetName=responses&${qs.stringify({formGoogleSendEmail:user.formGoogleSendEmail})}`,
           url,
         };
         console.log(options.data)

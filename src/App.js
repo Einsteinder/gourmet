@@ -26,12 +26,12 @@ class App extends Component {
           
           <Link className="nav-link" to="/">HOME</Link>
 
-            <Link className="nav-link " to="/about">ABOUT</Link>
+            <LinkH className="nav-link " to="/about#with-hash-fragment">ABOUT</LinkH>
+
             <LinkH className="nav-link " to="/photo#with-hash-fragment">PHOTOS</LinkH>
 
             <Link className="nav-link " to="/menu">MENU</Link>
-
-            <Link className="nav-link " to="/contactus">CONTACT US</Link>
+            <LinkH className="nav-link " to="/contactus#contact">CONTACT US</LinkH>
 
         
 

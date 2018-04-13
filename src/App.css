@@ -123,6 +123,12 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
+.card-title{
+  color: #222
+}
+.card-text{
+  color: #333333
+}
 
 body{
 	width:100%;

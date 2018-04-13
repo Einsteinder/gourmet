@@ -8,81 +8,15 @@ class Photo extends Component {
   render() {
     return (
       <div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-    <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
+
       <div
       id="with-hash-fragment"
->Link to Hash Fragment</div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
+></div>
+
 <img src={ counter} />
 <img src={ download} />
 
   
-   
-  
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-      <div>Let's take photos </div>
-
-      <div>Let's take photos </div>
 
          </div>
 

@@ -18,29 +18,7 @@ class App extends Component {
         <Router>
 
       <div>
-      <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header className="masthead mb-auto">
-        <div className="inner">
 
-          <nav className="nav nav-masthead justify-content-center">
-          
-          <Link className="nav-link" to="/">HOME</Link>
-
-            <LinkH className="nav-link " to="/about#with-hash-fragment">ABOUT</LinkH>
-
-            <LinkH className="nav-link " to="/photo#with-hash-fragment">PHOTOS</LinkH>
-
-            <Link className="nav-link " to="/menu">MENU</Link>
-            <LinkH className="nav-link " to="/contactus#contact">CONTACT US</LinkH>
-
-        
-
-          </nav>
-        </div>
-      </header>
-
-
-    </div>
       <Route path="/" component={Home} />
       <Route path="/About" component={About} />
       <Route path="/photo" component={Photo} />

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -68,7 +69,11 @@ body {
 .cover-container {
   max-width: 60em;
 }
+.cover-container-photo {
+  width: 782px;
+  max-width: 60em;
 
+}
 
 /*
  * Header
@@ -129,7 +134,12 @@ body {
 .card-text{
   color: #333333
 }
+.photo{
+  
+    height:250px;
+    width:250px;
 
+}
 body{
 	width:100%;
 	height:100%;

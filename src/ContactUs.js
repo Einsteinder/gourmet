@@ -49,12 +49,9 @@ class ContactUs extends Component {
       }
   render() {
     return (
-    <section id="contact" className="content-section text-center">
-        <div className="contact-section">
-            <div className="container">
+        <div className="cover-container-photo d-flex flex-column p-3 mx-auto align-items-center"  id="with-hash-fragment" >
               <h2>Contact Us</h2>
               <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
-              <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                   <form id = "gform" className="form-horizontal" onSubmit={this.handleSubmit}>
                     <div className="form-group">
@@ -80,10 +77,7 @@ class ContactUs extends Component {
                     <li><a href="#" className="btn btn-default btn-lg"> <Instagram/><span className="network-name">Instagram</span></a></li>
                   </ul>
                 </div>
-              </div>
             </div>
-        </div>
-      </section>
 
     );
   }
